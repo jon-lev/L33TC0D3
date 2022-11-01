@@ -5,7 +5,7 @@ class Node:
         self.val = val
         self.neighbors = neighbors if neighbors is not None else []
 """
-
+#O(V+E)
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         if not node: return None
